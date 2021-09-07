@@ -1,6 +1,7 @@
 import user from '../../json/profile.json';
 import { Profile } from 'components/Profile/Profile';
 import { Statistics } from 'components/Statistics/Statistics';
+import statistacalData from "../../json/statistical-data.json";
 
 
 export const App = () => {
@@ -17,7 +18,8 @@ export const App = () => {
                 likes={user.stats.likes}
             />
             <Statistics
-                
+                title='Upload stats'
+                stats={statistacalData}
             />
         </>
     )

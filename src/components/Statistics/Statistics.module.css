@@ -1,0 +1,39 @@
+.statistics {
+  padding: 10px 20px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+  background-color: rgb(141, 141, 141);
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+
+.stat_list {
+  display: flex;
+}
+
+.label {
+  display: flex;
+  color: #000;
+}
+
+.item_s {
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  border: 2px solid #fafafa;
+  border-radius: 5px;
+}
+
+.item_s:not(:last-child) {
+  margin-right: 10px;
+}
