@@ -6,7 +6,7 @@ export const FriendList = ({friends}) => (
     <ul className={css.friend_list}>
         {friends.map(({avatar, name, isOnline, id}) => (
             <li className={css.item} key={id}>
-                {isOnline === true
+                {isOnline
                     ? <span className={css.online}></span>
                     : <span className={css.offline}></span>}
                 <img className={css.avatar} src={avatar} alt={name} width="48" />
