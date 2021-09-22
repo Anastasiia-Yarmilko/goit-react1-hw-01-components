@@ -1,7 +1,7 @@
 /* eslint-disable array-callback-return */
 import React from "react";
 import PropTypes from "prop-types";
-import css from "./Statistics.module.css"
+import css from "./index.module.css"
 
 export const Statistics = ({ title, stats, children }) => {
     return (

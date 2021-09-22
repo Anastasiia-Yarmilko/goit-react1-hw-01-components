@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import css from "./Profile.module.css";
+import css from "./index.module.css";
 import defaultImage from "./defaultImage.png";
 
 export const Profile = ({ name, tag, location, avatar, followers, views, likes }) => {

@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import css from './friends.module.css';
+import css from './index.module.css';
 
 export const FriendList = ({friends}) => (
     <ul className={css.friend_list}>
