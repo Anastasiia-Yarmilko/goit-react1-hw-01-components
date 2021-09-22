@@ -19,6 +19,7 @@
 
 .stat_list {
   display: flex;
+  list-style: none;
 }
 
 .label {
@@ -26,14 +27,14 @@
   color: #000;
 }
 
-.item_s {
-  color: white;
+.item {
+  color: ;
   padding: 10px 15px;
   text-align: center;
   border: 2px solid #fafafa;
   border-radius: 5px;
 }
 
-.item_s:not(:last-child) {
+.item:not(:last-child) {
   margin-right: 10px;
 }
