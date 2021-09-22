@@ -27,8 +27,7 @@
   margin-right: 10px;
 }
 
-.online,
-.offline {
+.status {
   height: 20px;
   width: 20px;
   border-radius: 50%;
@@ -36,10 +35,8 @@
   margin-top: 10px;
 }
 
-.online:hover,
-.online:focus,
-.offline:hover,
-.offline:focus {
+.status:hover,
+.status:focus {
   border-radius: 0%;
 }
 
